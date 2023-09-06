@@ -1,0 +1,64 @@
+.my-navbar {
+    padding: 2.5vh !important; /* Adjust the padding value as needed */
+    background-color: white;
+    font-family: "Roboto";
+    font-size: 13pt;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.my-logo {
+    margin-left: 5vh;
+    height:10%
+}
+
+.my-NavItemContainer {
+    margin-right: 10%;
+}
+
+.my-NavItem {  
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.my-ContentContainer {
+   padding-top: 10rem;
+   width: auto;
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto; /* Ensures the image maintains its aspect ratio */
+  }
+
+.primary-button {
+    border: 0.5px solid var(--Gray-1, #333);
+    background: var(--Blue, #285A84);
+    color: var(--White, #FFF);
+    display: flex;
+    padding: 12px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 12px */
+}
+
+.secondary-button {
+    border: 0.5px solid var(--Gray-1, #333);
+    display: flex;
+    padding: 6px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    color: var(--Gray-1, #333);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 12px */
+}
