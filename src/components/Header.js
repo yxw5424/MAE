@@ -5,6 +5,7 @@ import '../custom.css';
 
 const Header = () => {
     return(
+        <div className='my-ContentContainer'>
             <Container style={{padding:'0vh 5vh'}}>
                 <Row>
                     <Col md="6" clasName="d-flex align-items-center" style={{ alignSelf:"stretch"}}>
@@ -55,6 +56,7 @@ const Header = () => {
                     </Col>
                 </Row>
             </Container>
+        </div>
     )
 }
 
