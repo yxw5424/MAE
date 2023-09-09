@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useState } from 'react';
 
 
 
@@ -32,34 +32,88 @@ const AppNavbar =() => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ms-auto my-NavItemContainer"  navbar>
             <NavItem className='my-NavItem'>
-              <NavLink href="/home/">Home</NavLink>
+              <NavLink href="/MAE">Home</NavLink>
             </NavItem>
             <NavItem className='my-NavItem'>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
+              <NavLink  href="/about">
                 About us
               </NavLink>
             </NavItem>
-            <NavItem className='my-NavItem'>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
-                Product
-              </NavLink>
-            </NavItem>
-            <NavItem className='my-NavItem'>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
-                Service
-              </NavLink>
-            </NavItem>
-            {/* <UncontrolledDropdown className='my-NavItem' nav inNavbar>
+            <UncontrolledDropdown className='my-NavItem' nav inNavbar>
               <DropdownToggle nav caret>
-                Options
+                Prodcuts
               </DropdownToggle>
               <DropdownMenu right>
-                <DropdownItem>Option 1</DropdownItem>
-                <DropdownItem>Option 2</DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>Reset</DropdownItem>
+                <DropdownItem>
+                  <NavLink href="https://github.com/reactstrap/reactstrap">
+                   Metering Module
+                  </NavLink>
+                </DropdownItem>
+                <DropdownItem>
+                  <NavLink href="https://github.com/reactstrap/reactstrap">
+                  Seperation Module
+                  </NavLink>
+                </DropdownItem>
+                <DropdownItem>
+                  <NavLink href="https://github.com/reactstrap/reactstrap">
+                  Water Treatment
+                  </NavLink>
+                </DropdownItem>
+                <DropdownItem>
+                  <NavLink href="https://github.com/reactstrap/reactstrap">
+                  Truck Loading
+                  </NavLink>
+                </DropdownItem>
+                <DropdownItem>
+                  <NavLink href="https://github.com/reactstrap/reactstrap">
+                  Additive Blending
+                  </NavLink>
+                </DropdownItem>
+                <DropdownItem>
+                  <NavLink href="https://github.com/reactstrap/reactstrap">
+                  Online Calibration
+                  </NavLink>
+                </DropdownItem>
               </DropdownMenu>
-            </UncontrolledDropdown> */}
+            </UncontrolledDropdown>
+            <UncontrolledDropdown className='my-NavItem' nav inNavbar>
+              <DropdownToggle nav caret>
+                Serevices
+              </DropdownToggle>
+              <DropdownMenu right>
+                <DropdownItem>
+                  <NavLink href="https://github.com/reactstrap/reactstrap">
+                   Maintenance
+                  </NavLink>
+                </DropdownItem>
+                <DropdownItem>
+                  <NavLink href="https://github.com/reactstrap/reactstrap">
+                  Spare Parts Management
+                  </NavLink>
+                </DropdownItem>
+                <DropdownItem>
+                  <NavLink href="https://github.com/reactstrap/reactstrap">
+                  Metering Condition
+                  </NavLink>
+                </DropdownItem>
+                <DropdownItem>
+                  <NavLink href="https://github.com/reactstrap/reactstrap">
+                  Calibration
+                  </NavLink>
+                </DropdownItem>
+                <DropdownItem>
+                  <NavLink href="https://github.com/reactstrap/reactstrap">
+                  Installation
+                  </NavLink>
+                </DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
+            <NavItem className='my-NavItem'>
+              <NavLink  href="/about">
+                Contact
+              </NavLink>
+            </NavItem>
+            
           </Nav>
         </Collapse>
     </Navbar>

@@ -13,7 +13,7 @@ function App() {
     <AppNavbar  />
     <div className='my-ContentContainer '>
       <Routes>
-        <Route index element={<Home />} />
+        <Route index path="/MAE" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="dashboard" element={<Dashboard />} />
 
@@ -59,7 +59,6 @@ function Layout() {
     </div>
   );
 }
-
 
 
 

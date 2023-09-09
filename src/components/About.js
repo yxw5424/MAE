@@ -1,12 +1,14 @@
 import React from 'react';
+// import Header from "./Header";
 
-const About = () => {
+const Home = () => {
     return(
-        <div>
-            asddddddddddddddddddddddddd   
+
+        <div className='my-ContentContainer'>
+            about
         </div>
     )
 
 }
 
-export default About;
+export default Home;

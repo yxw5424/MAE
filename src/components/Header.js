@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Button } from 'reactstrap';
+import { Container, Row, Col} from 'reactstrap';
 import HeaderImage from "../HeaderImage.jpg";
 import '../custom.css';
 
@@ -29,7 +29,7 @@ const Header = () => {
                                 
                             <p style={{
                                 marginTop:"4vh", 
-                                fontsize:'11px',
+                                
                                 fontStyle: 'normal',
                                 fontWeight: '400',
                                 maxWidth:'90%'}}>
@@ -37,7 +37,7 @@ const Header = () => {
                                 </p>
 
                             <p style={{
-                                fontsize:'11px',
+                                
                                 fontStyle: 'normal',
                                 fontWeight: '400',
                                 maxWidth:'90%'}}>                                    
@@ -45,10 +45,14 @@ const Header = () => {
                             </p>
 
                         </div>
-                            
-                        <button className='primary-button' style={{marginTop:'4vh'}}>Get A Quote</button>
-                                                       
-
+                    <Row>
+                        <Col xs="3">
+                            <button className='primary-button' style={{marginTop:'4vh'}}>Get A Quote</button>
+                        </Col>
+                        <Col xs="3">
+                            <button className='secondary-button' style={{marginTop:'4vh'}}>Learn More</button>
+                        </Col>
+                    </Row>   
                     </Col>
                     <Col md="6" className="d-flex align-items-center mr-auto" style={{padding:'5vh 5vh'}}>
                         <img src={HeaderImage} alt="Image"  className="responsive-image" />
