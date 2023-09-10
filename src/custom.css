@@ -74,6 +74,7 @@
 
 .my-paragraph {
     color:"#333333";
+    font-family: "Roboto";
     font-style: normal;
     font-weight:400;
     max-width:'90%' /* 12px */
@@ -83,7 +84,7 @@
     
     color:"#333333";
     font-family: Roboto;
-    font-size: 28px;
+    font-size: 32px;
     font-style: normal;
     font-weight: bold;
     line-height: 120%; /* 12px */
@@ -113,6 +114,7 @@
     justify-content: center;
     align-items: center;
     gap: 4px;
+    background: white;
     color: var(--Gray-1, #333);
     font-family: Roboto;
     font-size: 14px;

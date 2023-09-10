@@ -3,6 +3,8 @@ import Header from "./Header";
 import Partners from "./Partners";
 import Brief from './Brief';
 import Footer from './Footer';
+import Expertise from './Expertise';
+import CaseStudy from './CaseStudy';
 const Home = () => {
     return(
 
@@ -10,6 +12,8 @@ const Home = () => {
             <Header/>
             <Partners/>
             <Brief/>
+            <CaseStudy/>
+            <Expertise/>
             <Footer/>
         </div>
     )

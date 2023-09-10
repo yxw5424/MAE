@@ -45,11 +45,11 @@ const Header = () => {
                             </p>
 
                         </div>
-                    <Row>
-                        <Col xs="3">
+                    <Row xs='1'>
+                        <Col xs="5" md='3'>
                             <button className='primary-button' style={{marginTop:'4vh'}}>Get A Quote</button>
                         </Col>
-                        <Col xs="3">
+                        <Col xs="5" md='3'>
                             <button className='secondary-button' style={{marginTop:'4vh'}}>Learn More</button>
                         </Col>
                     </Row>   
