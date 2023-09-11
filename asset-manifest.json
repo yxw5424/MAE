@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.b687d106.css",
-    "main.js": "/static/js/main.0203748e.js",
-    "static/js/787.f027a00c.chunk.js": "/static/js/787.f027a00c.chunk.js",
-    "static/media/astar.jpg": "/static/media/astar.5bb2a3115a9c34a645d0.jpg",
-    "static/media/HeaderImage.jpg": "/static/media/HeaderImage.b1844d119e29896abb4b.jpg",
-    "static/media/Endress.jpg": "/static/media/Endress.56d9f144d3d22bb685c3.jpg",
-    "static/media/smart_metering.jpg": "/static/media/smart_metering.9c5258fce0735a74e625.jpg",
-    "static/media/NJTT.jpg": "/static/media/NJTT.23154472abb713d4bf5f.jpg",
-    "static/media/logo_with_name.svg": "/static/media/logo_with_name.323c4b050244e7e68f93843046bad245.svg",
-    "index.html": "/index.html",
-    "main.b687d106.css.map": "/static/css/main.b687d106.css.map",
-    "main.0203748e.js.map": "/static/js/main.0203748e.js.map",
-    "787.f027a00c.chunk.js.map": "/static/js/787.f027a00c.chunk.js.map"
+    "main.css": "/MAE/static/css/main.b687d106.css",
+    "main.js": "/MAE/static/js/main.f9ca2204.js",
+    "static/js/787.f027a00c.chunk.js": "/MAE/static/js/787.f027a00c.chunk.js",
+    "static/media/astar.jpg": "/MAE/static/media/astar.5bb2a3115a9c34a645d0.jpg",
+    "static/media/HeaderImage.jpg": "/MAE/static/media/HeaderImage.b1844d119e29896abb4b.jpg",
+    "static/media/Endress.jpg": "/MAE/static/media/Endress.56d9f144d3d22bb685c3.jpg",
+    "static/media/smart_metering.jpg": "/MAE/static/media/smart_metering.9c5258fce0735a74e625.jpg",
+    "static/media/NJTT.jpg": "/MAE/static/media/NJTT.23154472abb713d4bf5f.jpg",
+    "static/media/logo_with_name.svg": "/MAE/static/media/logo_with_name.323c4b050244e7e68f93843046bad245.svg",
+    "index.html": "/MAE/index.html",
+    "main.b687d106.css.map": "/MAE/static/css/main.b687d106.css.map",
+    "main.f9ca2204.js.map": "/MAE/static/js/main.f9ca2204.js.map",
+    "787.f027a00c.chunk.js.map": "/MAE/static/js/787.f027a00c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b687d106.css",
-    "static/js/main.0203748e.js"
+    "static/js/main.f9ca2204.js"
   ]
 }
