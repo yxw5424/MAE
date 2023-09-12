@@ -8,7 +8,7 @@ const Header = () => {
         <div className='my-ContentContainer'>
             <Container style={{padding:'0vh 5vh'}}>
                 <Row>
-                    <Col md="6" clasName="d-flex align-items-center" style={{ alignSelf:"stretch"}}>
+                    <Col xs='12' md="6" clasName="d-flex align-items-center" style={{ alignSelf:"stretch", marginBottom:'5vh'}}>
                         <div style={{marginTop:"5vh",fontFamily:"roboto"}}>
                             <h1 style={{
                           
@@ -54,7 +54,8 @@ const Header = () => {
                         </Col>
                     </Row>   
                     </Col>
-                    <Col md="6" className="d-flex align-items-center mr-auto" style={{padding:'5vh 5vh'}}>
+                    <Col xs='0' md='1'></Col>
+                    <Col xs='12' md="5" className="d-flex align-items-center mr-auto"  >
                         <img src={HeaderImage} alt="Image"  className="responsive-image" />
 
                     </Col>

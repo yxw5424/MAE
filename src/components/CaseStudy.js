@@ -58,7 +58,7 @@ const CaseStudy= () => {
                 <Row>
                    {cases.map((casestudy) => {
                         return(
-                        <Col className='center' style={{alignContent:'center'}} xs='12' md='4'>
+                        <Col className='center' style={{alignContent:'center',marginTop:'50px'}} xs='12' md='4'>
                         <Row>
                         <img src={casestudy.ImageUrl} style={{ width: "100%", height: "auto" }} />
                         </Row>
@@ -70,7 +70,7 @@ const CaseStudy= () => {
                         <p className='my-paragraph'>
                             {casestudy.Description}    
                         </p>
-                        <button className='secondary-button' style={{marginTop:'4vh'}}>Learn More</button>
+                        <button className='secondary-button' style={{marginTop:'1vh'}}>Learn More</button>
             
                     </Col>  )
                         

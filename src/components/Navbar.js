@@ -35,7 +35,7 @@ const AppNavbar =() => {
               <NavLink href="/MAE">Home</NavLink>
             </NavItem>
             <NavItem className='my-NavItem'>
-              <NavLink  href="/about">
+              <NavLink  href="/MAE/about">
                 About us
               </NavLink>
             </NavItem>
@@ -109,7 +109,7 @@ const AppNavbar =() => {
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem className='my-NavItem'>
-              <NavLink  href="/about">
+              <NavLink  href="/MAE/contact">
                 Contact
               </NavLink>
             </NavItem>

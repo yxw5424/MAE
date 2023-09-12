@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Input } from 'reactstrap';
 import '../custom.css';
-import Logosvg from '../logo_with_name.svg'
+import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
 
 
 const Footer = () => {
