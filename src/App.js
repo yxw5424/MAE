@@ -1,6 +1,6 @@
 import './App.css';
 import './custom.css';
-import React, { useState } from 'react';
+import React from 'react';
 import AppNavbar from './components/Navbar';
 import { BrowserRouter as Router, Route,  Routes, Outlet, Link } from 'react-router-dom';
 import Home from "./components/Home";
