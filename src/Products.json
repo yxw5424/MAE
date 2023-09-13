@@ -1,0 +1,71 @@
+[
+    {
+        "path":"/meteringmodule",
+        "id":1,
+        "name":"Metering Module",
+        "description":"With our engineers fully versed in the latest international and domestic standards andtechnologies to meet modern demands for liquid metering systems. We have CNAScertification and calibration laboratory conforming to ISO17025, which can ensure that eachmetering system meets the overall uncertainty before delivery. Our customers are all over China, and our overseas projects extend to Southeast Asia, Middle East and Africa.",
+        "headerimgurl":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg",
+        "text1":"Provide professional metering solutions in the most challenging projects With our engineers fully versed in the latest international and domestic standards and technologies to meet modern demands for liquid metering systems. We have CNAS certification and calibration laboratory conforming to ISO17025, which can ensure that each metering system meets the overall uncertainty before delivery. Our customers are all over China, and our overseas projects extend to Southeast Asia, Middle East and Africa.",
+        "imgurl1":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg",
+        "text2":"Provide professional metering solutions in the most challenging projects With our engineers fully versed in the latest international and domestic standards and technologies to meet modern demands for liquid metering systems. We have CNAS certification and calibration laboratory conforming to ISO17025, which can ensure that each metering system meets the overall uncertainty before delivery. Our customers are all over China, and our overseas projects extend to Southeast Asia, Middle East and Africa. Our intimate knowledge of metering technologies such as turbine, Coriolis, ultrasonic and PD meters enables us to provide you with the most appropriate suggestions when providing metering solutions for you. These are not only limited to the selection of flowmeters, but also to the sampling and analysis including water cut, density, viscosity; proving and calibration including bi-directional ball provers, small-volume provers, master metering and water draw calibration systems; and metering and control supervisory systems. Our engineers have rich experience with different metering requirements under various operating conditions, to ensure each project can meet customers’ requirements.",
+        "imgurl2":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg"
+    },
+    {   
+        "path":"/seperationmodule",
+        "id":2,
+        "name":"Seperation Module",
+        "description":"In view of the difference between gas-liquid separation and oil-water separation in the threephase separation process, swirl pre-degassing technology is adopted to realize the rapid gasliquid separation, increase the effective liquid volume of the three-phase separator andimprove the equipment efficiency.The pre-degassing technology of inlet cyclone is adoptedwhich means that after the mixture of oil, gas and water enters the three-phase separator, thegas and liquid are separated rapidly by centrifugal force in the inlet section, and more than99% of the associated gas of crude oil is separated first. In this way, the liquid volume of oil-water separation is increased from about 50% to more than 95%.The swirl separation devicenot only improves the effective volume of the equipment, but also plays a certain role inbalancing the pressure of the equipment, stabilizing the flow state, defoaming and absorbingenergy.This technology is very effective for oil and gas separation of high oil and gas ratiocrude oil and easily foaming crude oil.",
+        "headerimgurl":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg",
+        "text1":"The 'dehydration of crude oil' is changed into 'oil removal in water', which greatly differs in speed, quality and effect, and fundamentally solves the problem of slow dehydration of crude oil.Through a specific inlet and liquid distribution device, the efficient separator changes the 'crude oil dehydration' of the traditional separator into 'oil removal in water'. Water ACTS as the continuous phase, so that oil droplets are separated from the continuous phase as the dispersed phase.",
+        "imgurl1":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg",
+        "text2":"Solve the key problem in the three-phase separation process -- emulsion demulsification.Activated water enhanced water - washing demulsification technology was used to speed up oil - water separation and improve separation efficiency.Whether the emulsion can be effectively demulsified is a key factor affecting the quality of oil-water separation.By designing specific components of washing and liquid distribution, the efficient three-phase separator achieves the purpose of strengthening washing and demulsifying with active water.",
+        "imgurl2":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg"
+    },
+    {
+        "path":"/watertreatmentgmodule",
+        "id":3,
+        "name":"Water Treatment Module",
+        "description":"Water treatment refers to the physical and chemical measures adoptedto make the water quality reach a certain standard,The minimumstandards for drinking water shall be set by the environmentalprotection department.Industrial water use has its ownrequirements.The physical properties of water, such as temperaturecolor, transparency, smell and taste, are the basic criteria for judgingthe quality of water.",
+        "headerimgurl":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg",
+        "text1":"Compact floatation is a common oil-water separation technique used in offshore platforms, FPSO, onshore oil and gas fields, etc.Its processing efficiency is high, stable and occupies a small area. Using the reflux pump and dissolved air system to produce fine bubbles and tangential into the compact type air flotation device, and the tangential liquid into the oily water to vortex mixing in separate container, fine bubbles collisions with the dispersed phase droplet, suspended solids, adhesion aggregation form oil and gas accumulation, as the water pressure is reduced, the micro air bubble volume expansion, aggregates of oil and gas buoyancy to form liquid level float oil residue and separating from the water, to water purification purposes.",
+        "imgurl1":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg",
+        "text2":"Coalescing (coarse-grained) degreaser is an oil - and hydrophobic property through coalescing media.The interception and adsorption of the medium, oil diffusion, inertia, gravity and other effects, adsorption, capture oil beads in water, oil beads increase and fall off, floating up after removal or removal by washing. Coalescing oil eliminator is generally inclined plate and coalescing two ways of combination of oil eliminator or a single coalescing oil eliminator.",
+        "imgurl2":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg"
+    },
+    {
+        "path":"/truckloading",
+        "id":4,
+        "name":"Truck Loading and Unloading",
+        "description":"On the basis of analyzing the loading needs of petrochemicaenterprises, and summarizing the advanced international/domesticexperience, the quantitative loading system developed by MAE, canmeet different loading requirements of various trucks and trains. Thesystem is composed of field control and remote management. For thefield control part, the batch controllers are used control thoseinstruments and collect real time data; for the remote managementpart, the industrial computer is used for centralized management,ewhich constitutes the distributed quantitative loading system.",
+        "headerimgurl":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg",
+        "text1":"The intelligent unattended system designed by us can directly manage the whole loading process through the data given by ERP. Operators can set parameters, operate and monitor on site. They can also monitor and manage remotely in the dispatching room to achieve the integration of management and control.",
+        "imgurl1":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg",
+        "text2":"The customized vehicle system designed by MAE will make the loading process more concise and efficient The truck loading system adopts the distributed filling system which is popular in the world at present. It is a system consisted of centralized management and decentralized control. All the data of those equipment on the loading bay are collected and processed while applying the decentralized filling control system of multiple cargo space.",
+        "imgurl2":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg"
+    },
+    {
+        "path":"/additiveblending",
+        "id":5,
+        "name":"Additive Blending",
+        "description":"Comparing with the disadvantages of traditional manual injectingincluding difficult to quantitatively controlling, low degree ofautomation, and time-consuming, MAE has introduced advancedinternational concepts to create an automatic continuous injectionsystem. The system designed by us reduces the amount of importedspecial equipment through patent technology, meanwhile ensuresthe accuracy and quality.",
+        "headerimgurl":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg",
+        "text1":"No matter online formulation generation, or automatic tracking of pipeline aviation coal flow for uniform, continuous, micro injection, no manual intervention is requiredbeing.",
+        "imgurl1":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg",
+        "text2":"Every step in our blending system is fully automated including realtime formula generating MAE originally designed the whole process of injecting, which achieves the whole automatic manage. By using continuous homogenization and injection, the solvent is fully homogenized and then continuously injected into the pipeline through the homogenization device, which reduces the probability of solvent adsorption and degradation. The online intelligent formulation algorithm can ensure the rapid, accurate and uniform injecting quantity according to the real-time and variable online formulation of conductivity production in pipeline, and minimize the extent of over-filling and under-filling. The hardware structure of the whole device is well arranged, which not only reduces the cost of purchase and maintenance, but also makes the single verification of equipment become reality.",
+        "imgurl2":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg"
+    },
+    
+    {
+        "path":"/onlinecalibration",
+        "id":6,
+        "name":"Online Calibration",
+        "description":"Calibration and verification is an indispensable part of themeasurement process, and the measurement process that cannot beverified and traced is inaccurate. The calibration verification methodhas the standard meter method and the small volume prover methodtwo kinds. Since the on-site environment is the most real,MAE company chose to use the on-site verification equipment for themeasurement system for complete verification and traceability. Withsuch a traceability system, the measurement data we get are fullyverified.",
+        "headerimgurl":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg",
+        "text1":"Provide professional metering solutions in the most challenging projects With our engineers fully versed in the latest international and domestic standards and technologies to meet modern demands for liquid metering systems. We have CNAS certification and calibration laboratory conforming to ISO17025, which can ensure that each metering system meets the overall uncertainty before delivery. Our customers are all over China, and our overseas projects extend to Southeast Asia, Middle East and Africa.",
+        "imgurl1":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg",
+        "text2":"Provide professional metering solutions in the most challenging projects With our engineers fully versed in the latest international and domestic standards and technologies to meet modern demands for liquid metering systems. We have CNAS certification and calibration laboratory conforming to ISO17025, which can ensure that each metering system meets the overall uncertainty before delivery. Our customers are all over China, and our overseas projects extend to Southeast Asia, Middle East and Africa. Our intimate knowledge of metering technologies such as turbine, Coriolis, ultrasonic and PD meters enables us to provide you with the most appropriate suggestions when providing metering solutions for you. These are not only limited to the selection of flowmeters, but also to the sampling and analysis including water cut, density, viscosity; proving and calibration including bi-directional ball provers, small-volume provers, master metering and water draw calibration systems; and metering and control supervisory systems. Our engineers have rich experience with different metering requirements under various operating conditions, to ensure each project can meet customers’ requirements.",
+        "imgurl2":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg"
+    }
+
+  ]
+  

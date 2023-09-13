@@ -1,0 +1,59 @@
+[
+    {
+        "path":"/installation",
+        "id":1,
+        "name":"Installation and Comissioning Services",
+        "description":"An important part of our project delivery, our engineers will ensurethat your system is installed with maximum efficiency. MAE'sengineers are highly skilled in providing you with the support youwould expect from a company that is best in class.",
+        "headerimgurl":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg",
+        "text1":"An important part of our project delivery, our engineers will ensurethat your system is installed with maximum efficiency. MAE'sengineers are highly skilled in providing you with the support youwould expect from a company that is best in class.",
+        "imgurl1":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg",
+        "text2":"MAE’s engineers will ensure the smooth running of your system from control to metering. After checking all the problems at the scene, we will deliver our products to you.",
+        "imgurl2":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg"
+    },
+    {   
+        "path":"/maintenance",
+        "id":2,
+        "name":"Care and Maintenace",
+        "description":"Our work with your company continues well after installation, so the contractsbetween MAE and your organization are designed for a lifetime. Understandingthat it is more efficient to prevent a problem than to repair it once it hashappened, MAE's customer care ensures that you get the maximum value fromyour assets.",
+        "headerimgurl":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg",
+        "text1":"MAE’s engineers provide you with product maintenance, periodic system health checks, off-site software backups and training all the time. MAE’s Maintenance Contracts will ensure the best performance of your metering system, and we will provide the most professional care and maintenance for you.",
+        "imgurl1":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg",
+        "text2":"Maintenance Contracts can also include detailed work planning and scheduling, progress and management reporting, documentation control. We will classify and record of all event updates, quality management and security management.",
+        "imgurl2":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg"
+    },
+    {
+        "path":"/sparepartsmanagement",
+        "id":3,
+        "name":"Metering and Controls Spares Management",
+        "description":"MAE's Customer Service will provide you with the most professionalmanagement advices on metering spares. From maintenance period to sparesreplacement, we help customers plan their operation expenditure as well asassist in reducing costs associated with downtime and carrying excess inventory.",
+        "headerimgurl":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg",
+        "text1":"MAE’s Customer Service will offer you spares and repair services for all metering systems we provided. Through planned maintenance schedules, management of spares and repair services, we help customers plan their operation expenditure as well as assist in reducing costs associated with downtime.",
+        "imgurl1":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg",
+        "text2":"We will provide quotations of spares based on the original purchase list meeting customers' requirements. Where spares are no longer available, we have the necessary technical engineering expertise to be able to offer alternative solutions.",
+        "imgurl2":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg"
+    },
+    {
+        "path":"/meteringcondition",
+        "id":4,
+        "name":"Condition Based Monitoring",
+        "description":"To help keep your entire metering system healthy andoperational, MAE can provide continuous health checksthrough Condition Based Monitoring. Our specialists will useexisting data to determine whether your metering system isworking properly and to identify the specific causes ofmetering errors.",
+        "headerimgurl":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg",
+        "text1":"The state of metering can be monitored using Ultrasonic, Coriolis and Orifice meters; chromatographs; flow computers. We also provide third-party tools for obtaining in-depth diagnostics of flow meters.",
+        "imgurl1":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg",
+        "text2":"Condition Based Monitoring widely considered to be a best-practice approach of the on-site metering system performance. Through periodic monitoring, it can prevent some possible problems and reduce the operational costs, conforming to the idea of MAE.",
+        "imgurl2":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg"
+    },
+    {
+        "path":"/calibration",
+        "id":5,
+        "name":"Calibration and Certification Services",
+        "description":"Our metering experts can provide you with a complete metrologicaverification and certification service. We have a calibration systemconforming to ISO17025. Our laboratory is certified by CNAS and canprovide certificates that meet domestic and international standards",
+        "headerimgurl":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg",
+        "text1":"MAE’s Customer Service will offer you spares and repair services for all metering systems we provided. Through planned maintenance schedules, management of spares and repair services, we help customers plan their operation expenditure as well as assist in reducing costs associated with downtime.",
+        "imgurl1":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg",
+        "text2":"We will provide quotations of spares based on the original purchase list meeting customers' requirements. Where spares are no longer available, we have the necessary technical engineering expertise to be able to offer alternative solutions.",
+        "imgurl2":"http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1037918.jpg"
+    }
+
+  ]
+  

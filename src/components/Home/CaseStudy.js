@@ -64,7 +64,7 @@ const CaseStudy= () => {
                 <Row>
                    {cases.map((casestudy,index) => {
                         return(
-                        <Col className='center' style={{alignContent:'center',marginTop:'50px'}} xs='12' md='4'>
+                        <Col className='center' style={{alignContent:'center',marginTop:'50px'}} xs='12' md='4' id={index}>
                         <Row>
                         <img src={casestudy.ImageUrl} style={{ width: "100%", height: "auto" }} alt={casestudy.Name}/>
                         </Row>

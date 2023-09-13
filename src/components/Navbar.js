@@ -52,35 +52,47 @@ const AppNavbar =() => {
               <DropdownToggle nav caret>
                 Prodcuts
               </DropdownToggle>
-              <DropdownMenu right>
+              <DropdownMenu end>
                 <DropdownItem>
-                  <NavLink href="https://github.com/reactstrap/reactstrap">
-                   Metering Module
+                  <NavLink >
+                    <Link to='/meteringmodule' className='text-no-decro'>
+                      Metering Module
+                    </Link>
                   </NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavLink href="https://github.com/reactstrap/reactstrap">
-                  Seperation Module
+                  <NavLink >
+                  <Link to='/seperationmodule' className='text-no-decro'>
+                    Seperation Module
+                  </Link>
                   </NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavLink href="https://github.com/reactstrap/reactstrap">
+                  <NavLink >
+                  <Link to='/watertreatmentgmodule' className='text-no-decro'>
                   Water Treatment
+                  </Link>
                   </NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavLink href="https://github.com/reactstrap/reactstrap">
+                  <NavLink >
+                  <Link to='/truckloading' className='text-no-decro'>
                   Truck Loading
+                  </Link>
                   </NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavLink href="https://github.com/reactstrap/reactstrap">
+                  <NavLink >
+                  <Link to='/additiveblending' className='text-no-decro'>
                   Additive Blending
+                  </Link>
                   </NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavLink href="https://github.com/reactstrap/reactstrap">
+                  <NavLink >
+                  <Link to='/onlinecalibration' className='text-no-decro'>
                   Online Calibration
+                  </Link>
                   </NavLink>
                 </DropdownItem>
               </DropdownMenu>
@@ -89,30 +101,40 @@ const AppNavbar =() => {
               <DropdownToggle nav caret>
                 Serevices
               </DropdownToggle>
-              <DropdownMenu right>
+              <DropdownMenu end>
                 <DropdownItem>
-                  <NavLink href="https://github.com/reactstrap/reactstrap">
-                   Maintenance
+                  <NavLink >
+                    <Link to='/maintenance' className='text-no-decro'>
+                      Maintenance
+                    </Link>
                   </NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavLink href="https://github.com/reactstrap/reactstrap">
-                  Spare Parts Management
+                  <NavLink >
+                    <Link to='/sparepartsmanagement' className='text-no-decro'>
+                      Spare Parts Management
+                    </Link>
                   </NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavLink href="https://github.com/reactstrap/reactstrap">
-                  Metering Condition
+                  <NavLink >
+                    <Link to='/meteringcondition' className='text-no-decro'>
+                      Metering Condition
+                    </Link>
                   </NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavLink href="https://github.com/reactstrap/reactstrap">
-                  Calibration
+                  <NavLink >
+                    <Link to='/calibration' className='text-no-decro'>
+                      Calibration
+                    </Link>
                   </NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavLink href="https://github.com/reactstrap/reactstrap">
-                  Installation
+                  <NavLink >
+                    <Link to='/installation' className='text-no-decro'>
+                      Installation
+                    </Link>
                   </NavLink>
                 </DropdownItem>
               </DropdownMenu>
