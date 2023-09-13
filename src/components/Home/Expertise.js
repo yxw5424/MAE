@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import SmartMetering from "../smart_metering.jpg";
-import '../custom.css';
+import SmartMetering from "../../smart_metering.jpg";
+import '../../custom.css';
 
 
 

@@ -1,15 +1,14 @@
 import React from 'react';
 import { Container,Row,Col } from 'reactstrap';
+
 // import Header from "./Header";
 
 const About = () => {
     return(
-
+        
         <div className='my-ContentContainer'>
+           
             <Container>
-                {/* <Row style={{marginBottom:'5vh'}}>
-                
-                </Row> */}
                 <Row>
                 <Col xs='12' md='5'>
                 <header className='my-Header' style={{marginTop:'5vh', marginBottom:'5vh'}}>

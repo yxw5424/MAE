@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import LogoSVG from "../logo_with_name.svg";
-import '../custom.css';
+import  '../../custom.css';
 import { AiFillUnlock, AiOutlineLineChart,AiOutlineDashboard } from 'react-icons/ai';
 
 

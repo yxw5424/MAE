@@ -4,15 +4,22 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
+import {
+  createHashRouter,
+  RouterProvider
+} from 'react-router-dom';
 
+const router = createHashRouter([
+  {
+    path: "/*",
+    element: <App />,
+  }
+]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-</React.StrictMode>
+      <RouterProvider router={router} />
+  </React.StrictMode>
 );
 
 

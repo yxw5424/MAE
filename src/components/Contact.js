@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container,Row,Col,Form,FormGroup,Label,Input } from 'reactstrap';
-import { Map, Marker } from "pigeon-maps"
+import { Map, Marker } from "pigeon-maps";
+
 
 
 

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
 
-
 import {
   Collapse,
   Navbar,
@@ -14,8 +13,8 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  NavbarText,
 } from 'reactstrap';
+import { Link } from "react-router-dom";
 import '../custom.css';
 import LogoSVG from "../logo_with_name.svg";
 
@@ -32,12 +31,22 @@ const AppNavbar =() => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ms-auto my-NavItemContainer"  navbar>
             <NavItem className='my-NavItem'>
-              <NavLink href="/MAE">Home</NavLink>
+              <NavLink>
+                <Link to='/' className='text-no-decro'>
+                  Home
+                </Link>
+              </NavLink>
             </NavItem>
             <NavItem className='my-NavItem'>
-              <NavLink  href="/MAE/about">
+              {/* <NavLink  as={Link} href="/MAE/about">
                 About us
+              </NavLink> */}
+              <NavLink >
+                <Link to='/about' className='text-no-decro'>
+                  About us
+                </Link>
               </NavLink>
+
             </NavItem>
             <UncontrolledDropdown className='my-NavItem' nav inNavbar>
               <DropdownToggle nav caret>
@@ -109,9 +118,11 @@ const AppNavbar =() => {
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem className='my-NavItem'>
-              <NavLink  href="/MAE/contact">
-                Contact
-              </NavLink>
+              <NavLink>
+               <Link to='/contact' className='text-no-decro'>
+                 Contact
+                </Link>
+                </NavLink>
             </NavItem>
             
           </Nav>

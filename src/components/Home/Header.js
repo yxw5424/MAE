@@ -1,14 +1,14 @@
 import React from 'react';
 import { Container, Row, Col} from 'reactstrap';
-import HeaderImage from "../HeaderImage.jpg";
-import '../custom.css';
+import HeaderImage from "../../HeaderImage.jpg";
+import '../../custom.css';
 
 const Header = () => {
     return(
         <div className='my-ContentContainer'>
             <Container style={{padding:'0vh 5vh'}}>
                 <Row>
-                    <Col xs='12' md="6" clasName="d-flex align-items-center" style={{ alignSelf:"stretch", marginBottom:'5vh'}}>
+                    <Col xs='12' md="6"  style={{ alignSelf:"stretch", marginBottom:'5vh'}}>
                         <div style={{marginTop:"5vh",fontFamily:"roboto"}}>
                             <h1 style={{
                           
@@ -45,18 +45,19 @@ const Header = () => {
                             </p>
 
                         </div>
-                    <Row xs='1'>
-                        <Col xs="5" md='3'>
-                            <button className='primary-button' style={{marginTop:'4vh'}}>Get A Quote</button>
+                    <Row xs='1' md='2' >
+                        <Col xs="5" md='5' lg='3'>
+                            <button className='primary-button' style={{marginTop:'4vh', minWidth:'120px'}}>Get A Quote</button>
                         </Col>
-                        <Col xs="5" md='3'>
-                            <button className='secondary-button' style={{marginTop:'4vh'}}>Learn More</button>
+
+                        <Col xs="5" md='5'lg='3'>
+                            <button className='secondary-button' style={{marginTop:'4vh', minWidth:'120px'}}>Learn More</button>
                         </Col>
                     </Row>   
                     </Col>
                     <Col xs='0' md='1'></Col>
                     <Col xs='12' md="5" className="d-flex align-items-center mr-auto"  >
-                        <img src={HeaderImage} alt="Image"  className="responsive-image" />
+                        <img src={HeaderImage} alt="HeaderImage"  className="responsive-image" />
 
                     </Col>
                 </Row>

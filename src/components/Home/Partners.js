@@ -1,11 +1,11 @@
 import React from 'react';
-import { Container, Row, Col, Button } from 'reactstrap';
-import LogoSVG from "../logo_with_name.svg";
-import Astar from "../astar.jpg";
-import NJTT from "../NJTT.jpg";
-import Emerson from "../emerson-logo.png";
-import Endress from "../Endress.jpg"
-import '../custom.css';
+import { Container, Row, Col } from 'reactstrap';
+
+import Astar from "../../astar.jpg";
+import NJTT from "../../NJTT.jpg";
+import Emerson from "../../emerson-logo.png";
+import Endress from "../../Endress.jpg"
+import '../../custom.css';
 
 
 const Partners = () => {

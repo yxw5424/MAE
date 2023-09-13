@@ -162,3 +162,13 @@ align-self: stretch;
     line-height:150%;
     font-weight:400;
 } */
+
+.text-no-decro{
+    text-decoration: none;
+    color:var(--Gray-1, #333);
+}
+
+.content-block{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}

@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from "./Header";
-import Partners from "./Partners";
-import Brief from './Brief';
-import Expertise from './Expertise';
-import CaseStudy from './CaseStudy';
+import Header from "./Home/Header";
+import Partners from "./Home/Partners";
+import Brief from './Home/Brief';
+import Expertise from './Home/Expertise';
+import CaseStudy from './Home/CaseStudy';
 
 const Home = () => {
     return(

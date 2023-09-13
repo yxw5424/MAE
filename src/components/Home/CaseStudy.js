@@ -1,7 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import SmartMetering from "../smart_metering.jpg";
-import '../custom.css';
+import { Link } from "react-router-dom";
+import  '../../custom.css';
+
 
 
 const cases = [
@@ -9,23 +10,28 @@ const cases = [
         Name:'Yangzi Petrochemical Crude Oil Metering System',
         Url:'http://www.mae.com.sg/newsinfo/157094.html',
         ImageUrl:'https://nwzimg.wezhan.net/contents/sitefiles3602/18011001/images/1039376.jpg',
-        Description:'Metering Solution',   
+        Description:'Metering Solution',  
+        Path:"/caseone"
     },
     {
         Name:'Tianjin Petrochemical crude oil measurement case',
         Url:'http://www.mae.com.sg/newsinfo/157093.html',
         ImageUrl:'http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1039377.jpg',
-        Description:'Metering Solution', 
+        Description:'Metering Solution',
+        Path:"/casetwo" 
     },
     {
         Name:'Jinling Petrochemical Crude Oil Metering System',
         Url:'http://www.mae.com.sg/newsinfo/157092.html',
         ImageUrl:'http://nwzimg.wezhan.hk/contents/sitefiles3602/18011001/images/1039378.jpg',
-        Description:'Metering Solution',  
+        Description:'Metering Solution', 
+        Path:"/casethree"  
     },
     
 
 ]
+
+
 
 
 const CaseStudy= () => {
@@ -56,11 +62,11 @@ const CaseStudy= () => {
                     <Col xs='0' md='3'></Col>
                 </Row>
                 <Row>
-                   {cases.map((casestudy) => {
+                   {cases.map((casestudy,index) => {
                         return(
                         <Col className='center' style={{alignContent:'center',marginTop:'50px'}} xs='12' md='4'>
                         <Row>
-                        <img src={casestudy.ImageUrl} style={{ width: "100%", height: "auto" }} />
+                        <img src={casestudy.ImageUrl} style={{ width: "100%", height: "auto" }} alt={casestudy.Name}/>
                         </Row>
                         
                        
@@ -70,7 +76,11 @@ const CaseStudy= () => {
                         <p className='my-paragraph'>
                             {casestudy.Description}    
                         </p>
-                        <button className='secondary-button' style={{marginTop:'1vh'}}>Learn More</button>
+                        <button className='secondary-button'  style={{marginTop:'1vh'}}>
+                            <Link to={{ pathname: casestudy.Path,   }} className='text-no-decro'>
+                                Learn More
+                            </Link>
+                        </button>
             
                     </Col>  )
                         
