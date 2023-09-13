@@ -3,7 +3,7 @@ import { Container, Col, Row } from 'reactstrap';
 
 
 
-const ProductPage = (props) => {
+const Productpage = (props) => {
 
     const {product} = props
     console.log(product)
@@ -62,4 +62,5 @@ const ProductPage = (props) => {
     )
 }
 
+const ProductPage = React.memo(Productpage);
 export default ProductPage;

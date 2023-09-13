@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Container,Row,Col,Form,FormGroup,Label,Input } from 'reactstrap';
 import { Map, Marker } from "pigeon-maps";
 
@@ -8,6 +8,42 @@ import { Map, Marker } from "pigeon-maps";
 
 
 const Contact = () => {
+
+    const [formData, setFormData] = useState({
+        firstname: '',
+        lastname:'',
+        email: '',
+        subject:'',
+        message: '',
+      });
+    
+      const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({ ...formData, [name]: value });
+      };
+    
+      const handleSubmit = async (e) => {
+        e.preventDefault();
+        try {
+          const response = await fetch('/submit-form', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData),
+          });
+          if (response.ok) {
+            alert('Form submitted successfully');
+            // Reset the form fields if needed
+            setFormData({ firstname: '', lastname: '', email: '', subject:'', message: '' });
+          } else {
+            alert('Error submitting form');
+          }
+        } catch (error) {
+          console.error('Error:', error);
+        }
+      };
+
     return(
 
         <div className='my-ContentContainer'>
@@ -23,76 +59,88 @@ const Contact = () => {
                         <p className='my-paragraph'>
                         Complete this form to contact our sales team. Based on your replies, our team is happy to answer any questions, provide a live demonstration, or provide a quote for your company.
                         </p>
-                        <Form>
+                        <Form onSubmit={handleSubmit}>
                         <Row>
                             <Col md={6}>
                             <FormGroup >
-                                <Label for="First Name">
+                                <Label for="firstname">
                                 First Name
                                 </Label>
                                 <Input
-                                id="FirstName"
-                                name="FirstName"
+                                id="firstname"
+                                name="firstname"
                                 placeholder=""
-                                type="FirstName"
+                                type="firstname"
                                 style={{borderRadius: "0",fontFamily:'roboto', fontSize:'16px', lineHeight:"150%", fontWeight:'400'}}
+                                value={formData.firstname}
+                                onChange={handleChange}
                                 />
                             </FormGroup>
                             </Col>
                             <Col md={6}>
                             <FormGroup>
-                                <Label for="Last Name">
+                                <Label for="lastname">
                                 Last Name
                                 </Label>
                                 <Input
-                                id="LastName"
-                                name="LastName"
+                                id="lastname"
+                                name="lastname"
                                 placeholder=""
-                                type="LastName"
+                                type="lastname"
                                 style={{borderRadius: "0",fontFamily:'roboto', fontSize:'16px', lineHeight:"150%", fontWeight:'400'}}
+                                value={formData.lastname}
+                                onChange={handleChange}
                                 />
                             </FormGroup>
                             </Col>
                             
                         </Row>
                         <FormGroup>
-                            <Label for="Email">
+                            <Label for="email">
                             Email
                             </Label>
                             <Input
-                            id="Email"
+                            id="email"
                             name="email"
                             placeholder=""
                             type="email"
                             style={{borderRadius: "0",fontFamily:'roboto', fontSize:'16px', lineHeight:"150%", fontWeight:'400'}}
+                            value={formData.email}
+                            onChange={handleChange}
                             />
                         </FormGroup>
                         <FormGroup>
-                            <Label for="Subject">
+                            <Label for="subject">
                             Subject
                             </Label>
                             <Input
-                            id="Subject"
+                            id="subject"
                             name="subject"
                             placeholder=""
                             type="subject"
                             style={{borderRadius: "0",fontFamily:'roboto', fontSize:'16px', lineHeight:"150%", fontWeight:'400'}}
+                            value={formData.subject}
+                            onChange={handleChange}
                             />
                         </FormGroup>
                         <FormGroup>
-                            <Label for="Message">
+                            <Label for="message">
                             Message
                             </Label>
                             <Input
-                            id="Message"
+                            id="message"
                             name="message"
                             type="textarea"
                             style={{borderRadius: "0",fontFamily:'roboto', fontSize:'16px', lineHeight:"150%", fontWeight:'400'}}   
+                            value={formData.message}
+                            onChange={handleChange}
                             />
                         </FormGroup>
-                        <button className='primary-button' style={{marginTop:'50px',marginBottom:'50px'}}>
+                       
+                        <button className='primary-button' style={{marginTop:'50px',marginBottom:'50px'}} type="submit">
                             Submit
                         </button>
+                        
                         </Form>
 
                     </Col>

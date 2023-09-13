@@ -3,7 +3,7 @@ import { Container, Col, Row } from 'reactstrap';
 
 
 
-const ServicePage = (props) => {
+const Servicepage = (props) => {
 
     const {service} = props
     console.log(service)
@@ -61,5 +61,5 @@ const ServicePage = (props) => {
         </div>
     )
 }
-
+const ServicePage = React.memo(Servicepage);
 export default ServicePage;

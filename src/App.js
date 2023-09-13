@@ -17,6 +17,7 @@ import servicesData from './Services.json';
 
 function App() {
 
+
   return (
     <div >
     <AppNavbar  />
@@ -28,10 +29,11 @@ function App() {
         <Route  exact path="/caseone" element={<CaseOne />} />
         <Route  exact path="/casetwo" element={<CaseTwo />} />
         <Route  exact path="/casethree" element={<CaseThree />} />
+
+       
         {
           productsData.map((product,index)=>{
             return(
-            
             <Route id={product.id} exact path={product.path} element={<ProductPage product={product} />} />
             )
           })
